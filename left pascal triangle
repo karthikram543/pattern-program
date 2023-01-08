@@ -1,0 +1,43 @@
+void pyramid(){
+       
+       for(int row=1;row<=7;row++){
+           for(int col=1;col<=row;col++){
+               System.out.print("* ");
+           }
+           System.out.println();
+       }
+       
+       
+       
+   }
+   void pyramid1(){
+       pyramid();
+       for(int row=6;row>=1;row--){
+           for(int col=1;col<=row;col++){
+               System.out.print("* ");
+           }
+           System.out.println();
+       }
+       
+       
+   }
+   
+    
+}
+
+
+output:◮
+
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+* * * * * * 
+* * * * * * * 
+* * * * * * 
+* * * * * 
+* * * * 
+* * * 
+* * 
+* 
