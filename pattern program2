@@ -1,0 +1,54 @@
+public class Main
+{
+    
+    
+	public static void main(String[] args) {
+		Main loop = new Main();
+		loop.number();
+		
+}
+   void  number(){
+       int number=8;
+        
+        for(int row=1;row<=number;row++){
+            for(int col=1;col<=row;col++){
+                System.out.print(col+" ");
+            }
+            System.out.println();
+        }
+         for(int row=9;row>=1;row--){
+            for(int col=1;col<=row;col++){
+                System.out.print(col+" ");
+            }
+             System.out.println();
+         }
+        
+    }
+    
+    
+}
+
+
+
+
+
+
+Outpu:▶
+
+1 
+1 2 
+1 2 3 
+1 2 3 4 
+1 2 3 4 5 
+1 2 3 4 5 6 
+1 2 3 4 5 6 7 
+1 2 3 4 5 6 7 8 
+1 2 3 4 5 6 7 8 9 
+1 2 3 4 5 6 7 8 
+1 2 3 4 5 6 7 
+1 2 3 4 5 6 
+1 2 3 4 5 
+1 2 3 4 
+1 2 3 
+1 2 
+1 
