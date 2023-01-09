@@ -1,0 +1,83 @@
+public class zuck {
+        
+	
+	public static void main (String[]args) {
+		zuck loop = new zuck();
+		//loop.pattern();
+	//	loop.pattern1();
+		loop.pattern2();
+		
+		
+		
+	}
+	private void pattern2() {
+		
+		for(int row=1;row<=7;row++) {
+			for(int k=1;k<=8-row;k++) {
+				System.out.print(" ");
+			}
+			for(int col=1;col<=7;col++) {
+				
+				if(col==1 || col==row) {
+					System.out.print("* ");
+				}
+				else {
+					System.out.print("  ");
+				}
+			//	System.out.print("* ");
+			}
+			System.out.println();
+			
+		}
+		
+		pattern1();
+		
+		
+	
+		
+	}
+	private void pattern1() {
+		for(int row=7;row>=1;row--) {
+			for(int k=1;k<=8-row;k++) {
+				System.out.print(" ");
+			}
+			for(int col=1;col<=7;col++) {
+				
+				if(col==1 || col==row) {
+					System.out.print("* ");
+				}
+				else {
+					System.out.print("  ");
+				}
+			//	System.out.print("* ");
+			}
+			System.out.println();
+		}
+		
+			
+	}
+	
+
+}
+
+
+output:
+
+       *            
+      * *           
+     *   *         
+    *     *       
+   *       *     
+  *         *   
+ *           * 
+ *           * 
+  *         *   
+   *       *     
+    *     *       
+     *   *         
+      * *           
+       *             
+
+
+
+
