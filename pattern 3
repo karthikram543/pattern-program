@@ -1,0 +1,56 @@
+public class zuck {
+        
+	
+	public static void main (String[]args) {
+		zuck loop = new zuck();
+		loop.pattern();
+		
+		
+		
+	}
+	void pattern() {
+		int number=10;
+		
+		for(int row=1;row<=number;row++) {
+			for(int k=1;k<=number-row;k++) {
+				System.out.print("  ");
+			}
+			for(int col=1;col<=number;col++) {
+				System.out.print("* ");
+			}
+			System.out.println();
+		}
+		
+	
+	}
+
+}
+
+
+output:
+
+                  * * * * * * * * * * 
+                * * * * * * * * * * 
+              * * * * * * * * * * 
+            * * * * * * * * * * 
+          * * * * * * * * * * 
+        * * * * * * * * * * 
+      * * * * * * * * * * 
+    * * * * * * * * * * 
+  * * * * * * * * * * 
+* * * * * * * * * * 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
