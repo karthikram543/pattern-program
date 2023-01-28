@@ -1,0 +1,46 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    
+	   Main obj =new Main();
+	  obj.name();  
+	
+	}
+	
+	
+void	name(){
+    int row=5;
+    int alpha=65;
+    
+    for(int i=0;i<=5;i++){
+        
+        for(int col=0;col<=i;col++){
+            
+            if(i%2!=0){
+                
+                System.out.print(" *");
+            }
+            else{
+                System.out.print( " "+(char)+(alpha+col));
+            }
+            
+        }
+        System.out.println(" ");
+    }
+   
+}
+}
+    
+    
+    output:▶
+    
+     A 
+     * * 
+     A B C 
+     * * * * 
+     A B C D E 
+     * * * * * * 
+    
+    
+    
+    
