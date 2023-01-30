@@ -1,0 +1,30 @@
+public class Main
+{
+	public static void main(String[] args) {
+		
+		int num=5;
+		
+		for(int row=1;row<=num;row++){
+		    for(int j=1;j<=row;j++){
+		        
+		        if(j==1|| j==row){
+		        
+		        System.out.print(" *");
+		        }
+		        else{
+		            System.out.print(" "+j );
+		        }
+		    }
+		    System.out.println();
+		}
+	}
+}
+
+
+output:▶
+
+ *
+ * *
+ * 2 *
+ * 2 3 *
+ * 2 3 4 *
