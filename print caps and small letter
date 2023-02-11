@@ -1,0 +1,28 @@
+public class javas {
+
+	public static void main (String[]args) {
+		
+		
+		int alphabet=65;
+		int alphabet1=97;
+		
+		for(int i=0;i<=5;i++) {
+			for(int j=0;j<=i;j++) {
+				if(j%2==0) {
+					System.out.print(((char)+(alphabet+j)));
+				}
+				else {
+				System.out.print((char)+(alphabet1+j));
+				
+			}}
+			System.out.println();	
+		}
+			
+      
+      output:
+A
+Ab
+AbC
+AbCd
+AbCdE
+AbCdEf
